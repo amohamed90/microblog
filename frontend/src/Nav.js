@@ -5,8 +5,8 @@ import './Nav.css'
 
 function Nav() {
   return (
-    <Container>
-      <Jumbotron>
+    <Container className="Nav">
+      <Jumbotron className="Jumbotron">
         <h1 className="display-3">Microblog</h1>
         <p className="lead">Get in the Rithm of blogging!</p>
         <span className="NavLinks">
